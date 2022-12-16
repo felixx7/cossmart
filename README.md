@@ -1,8 +1,8 @@
 ## Requerement
-mnimum node.js v14 o
-POSTMAN (https://api.postman.com/collections/9508354-d7159a23-8208-4819-ba5e-a36677616129?access_key=PMAT-01GMCT6RT3XRJSRMTFTM577MEW)
-VSCODE
-BROWSER
+- mnimum node.js v14
+- POSTMAN (https://api.postman.com/collections/9508354-d7159a23-8208-4819-ba5e-a36677616129?access_key=PMAT-01GMCT6RT3XRJSRMTFTM577MEW)
+- VSCODE
+- BROWSER
 
 
 ## Description
