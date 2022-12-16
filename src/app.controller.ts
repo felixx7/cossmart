@@ -18,6 +18,7 @@ export class AppController {
           edition_count : item.edition_count
         }
       })
+
     } catch (error) {
       console.log(error)
     }
