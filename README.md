@@ -65,6 +65,7 @@ example body (raw json):
             "edition_count": 969
         }
     ],
+    "name": "Aditya",
     "pick_up_schedule": "2022-12-15T14:06:40.208Z"
 }
 
@@ -79,6 +80,7 @@ example body (raw json):
             "edition_count": 969
         }
     ],
+    "name": "Aditya",
     "pick_up_schedule": "2022-12-15T14:06:40.208Z"
 }
 
@@ -93,10 +95,27 @@ example body (raw json):
             "edition_count": 9999
         }
     ],
+    "name": "Aditya",
     "pick_up_schedule": "2022-12-15T14:06:40.208Z"
 }
 
-
+//Example Response after success POST
+{
+    "pick_books": [
+        {
+            "key": "/works/OL21177W",
+            "title": "Wuthering Heights",
+            "edition_count": 1608,
+            "cover_id": 12818862,
+            "cover_edition_key": "OL38586477M",
+            "subject": [
+              ...
+            ...
+            ...  
+    ],
+    "pick_up_schedule": "2022-12-15T14:06:40.208Z",
+    "name": "Aditya"
+}
 ## Test
 
 ```bash

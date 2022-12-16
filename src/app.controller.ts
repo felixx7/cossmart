@@ -70,7 +70,8 @@ export class AppController {
       //Detail Book + Pick Up Schedule
       let borrowDetail = {
         pick_books :arrDataDetailBook,
-        pick_up_schedule : pickBooks.pick_up_schedule
+        pick_up_schedule : pickBooks.pick_up_schedule,
+        name : pickBooks.name
       }
       
       return borrowDetail
